@@ -1,11 +1,11 @@
-Safe-eth-py (previosly known as Gnosis-py)
+safe-pls-py (previosly known as Gnosis-py)
 ##########################################
 
 .. class:: no-web no-pdf
 
 |ci| |coveralls| |python| |django| |pipy| |readthedocs| |black|
 
-Safe-eth-py includes a set of libraries to work with Ethereum and relevant Ethereum projects:
+safe-pls-py includes a set of libraries to work with Ethereum and relevant Ethereum projects:
   - `EthereumClient`, a wrapper over Web3.py `Web3` client including utilities to deal with ERC20/721
     tokens and tracing.
   - `Gnosis Safe <https://github.com/safe-global/safe-contracts>`_ classes and utilities.
@@ -15,16 +15,16 @@ Safe-eth-py includes a set of libraries to work with Ethereum and relevant Ether
 Quick start
 -----------
 
-Just run ``pip install safe-eth-py`` or add it to your **requirements.txt**
+Just run ``pip install safe-pls-py`` or add it to your **requirements.txt**
 
 If you want django ethereum utils (models, serializers, filters...) you need to run
-``pip install safe-eth-py[django]``
+``pip install safe-pls-py[django]``
 
 If you have issues building **coincurve** maybe
 `you are missing some libraries <https://ofek.dev/coincurve/install/#source>`_
 
 
-Contributing to safe-eth-py
+Contributing to safe-pls-py
 ---------------------------
 Clone the repo, then to set it up:
 
@@ -116,13 +116,13 @@ It includes:
 
 Contributors
 ------------
-`See contributors <https://github.com/safe-global/safe-eth-py/graphs/contributors>`_
+`See contributors <https://github.com/safe-global/safe-pls-py/graphs/contributors>`_
 
-.. |ci| image:: https://github.com/safe-global/safe-eth-py/workflows/Python%20CI/badge.svg?branch=master
+.. |ci| image:: https://github.com/safe-global/safe-pls-py/workflows/Python%20CI/badge.svg?branch=master
     :alt: Github Actions CI build
 
-.. |coveralls| image:: https://coveralls.io/repos/github/safe-global/safe-eth-py/badge.svg?branch=master
-    :target: https://coveralls.io/github/safe-global/safe-eth-py?branch=master
+.. |coveralls| image:: https://coveralls.io/repos/github/safe-global/safe-pls-py/badge.svg?branch=master
+    :target: https://coveralls.io/github/safe-global/safe-pls-py?branch=master
     :alt: Coveralls
 
 .. |python| image:: https://img.shields.io/badge/Python-3.9-blue.svg
@@ -131,12 +131,12 @@ Contributors
 .. |django| image:: https://img.shields.io/badge/Django-2-blue.svg
     :alt: Django 2.2
 
-.. |pipy| image:: https://badge.fury.io/py/safe-eth-py.svg
-    :target: https://badge.fury.io/py/safe-eth-py
+.. |pipy| image:: https://badge.fury.io/py/safe-pls-py.svg
+    :target: https://badge.fury.io/py/safe-pls-py
     :alt: Pypi package
 
-.. |readthedocs| image:: https://readthedocs.org/projects/safe-eth-py/badge/?version=latest
-    :target: https://safe-eth-py.readthedocs.io/en/latest/?badge=latest
+.. |readthedocs| image:: https://readthedocs.org/projects/safe-pls-py/badge/?version=latest
+    :target: https://safe-pls-py.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
 .. |black| image:: https://img.shields.io/badge/code%20style-black-000000.svg
