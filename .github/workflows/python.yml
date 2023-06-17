@@ -87,7 +87,7 @@ jobs:
     needs:
       - linting
       - test-app
-    if: (github.event_name == 'release' && github.event.action == 'released')
+    # if: (github.event_name == 'release' && github.event.action == 'released')
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python
