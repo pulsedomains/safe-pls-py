@@ -875,9 +875,7 @@ class TestEthereumClient(EthereumTestCaseMixin, TestCase):
         with mock.patch.object(
             Eth, "chain_id", return_value=5, new_callable=mock.PropertyMock
         ):
-            self.assertEqual(
-                self.ethereum_client.get_network(), EthereumNetwork.GOERLI
-            )
+            self.assertEqual(self.ethereum_client.get_network(), EthereumNetwork.GOERLI)
             self.ethereum_client.get_chain_id.cache_clear()
 
         with mock.patch.object(
