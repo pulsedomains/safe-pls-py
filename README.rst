@@ -116,13 +116,13 @@ It includes:
 
 Contributors
 ------------
-`See contributors <https://github.com/safe-global/safe-pls-py/graphs/contributors>`_
+`See contributors <https://github.com/pulsedomains/safe-pls-py/graphs/contributors>`_
 
-.. |ci| image:: https://github.com/safe-global/safe-pls-py/workflows/Python%20CI/badge.svg?branch=master
+.. |ci| image:: https://github.com/pulsedomains/safe-pls-py/workflows/Python%20CI/badge.svg?branch=master
     :alt: Github Actions CI build
 
-.. |coveralls| image:: https://coveralls.io/repos/github/safe-global/safe-pls-py/badge.svg?branch=master
-    :target: https://coveralls.io/github/safe-global/safe-pls-py?branch=master
+.. |coveralls| image:: https://coveralls.io/repos/github/pulsedomains/safe-pls-py/badge.svg?branch=master
+    :target: https://coveralls.io/github/pulsedomains/safe-pls-py?branch=master
     :alt: Coveralls
 
 .. |python| image:: https://img.shields.io/badge/Python-3.9-blue.svg
