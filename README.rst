@@ -114,6 +114,10 @@ It includes:
 - **gnosis.safe.serializers**: Serializers for Gnosis Safe (signature, transaction...).
 - All the tests are written using Django Test suite.
 
+Additional Links
+------------
+For additional resources go to `Pulse Domains <https://pulse.domains/>`_ or `PulseCoinList <https://pulsecoinlist.com/>`_ 
+
 Contributors
 ------------
 `See contributors <https://github.com/pulsedomains/safe-pls-py/graphs/contributors>`_
